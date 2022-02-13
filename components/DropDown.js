@@ -29,7 +29,7 @@ export default function DropDown({ name, list }) {
         <Menu.Items className="bg-dark w-[168.45px] origin-top-right mt-2 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             {list.map((brand, idx) => (
-              <Menu.Item id={idx}>
+              <Menu.Item key={idx}>
                 {({ active }) => (
                   <a
                     href="#"
