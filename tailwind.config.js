@@ -13,5 +13,9 @@ module.exports = {
       "gray-text": "#a7a7a7",
     },
     plugins: [],
+    width: {
+      'screen-80': '80vw',
+      'screen-90': '90vw',
+    },
   },
 };
